@@ -20,8 +20,8 @@ function LoginScreen() {
         "Authentication failed!",
         "Please check your entered credentials."
       );
+      setIsAuthenticating(false);
     }
-    setIsAuthenticating(false);
   }
 
   if (isAuthenticating) {
